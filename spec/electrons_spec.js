@@ -11,4 +11,7 @@ describe('Electrons around the core', function() {
         expect(electron.add('2, 2, 3, 3')).toEqual('4');
     });
 
+    it ('should return the number 2 for the dices "6, 6, 4, 4, 1, 3 " rolled', function() {
+        expect(electron.add('6, 6, 4, 4, 1, 3')).toEqual('2');
+    });
 });
